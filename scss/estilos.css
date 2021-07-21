@@ -1,0 +1,377 @@
+/* reset */
+* {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: currentColor;
+}
+
+/****************************** Inicio css *********************************/
+body {
+  color: white;
+  background-color: #21182e;
+  display: block;
+  padding-top: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .e2a {
+    color: white;
+    padding-top: 2%;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70%;
+        grid-template-columns: 70%;
+    -ms-grid-rows: 40px 40px;
+        grid-template-rows: 40px 40px;
+  }
+  .e2a #e4b {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .e2a .spans {
+    margin-right: 20px;
+  }
+  .e2a .spans:hover {
+    margin-right: 20px;
+    color: brown;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    color: white;
+    background-color: #21182e;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 3% 94% 3%;
+        grid-template-rows: 3% 94% 3%;
+        grid-template-areas: "area1"  "area2"  "area3";
+  }
+  .e2a {
+    padding-top: 1%;
+    background-color: #21182e;
+    font-size: 22px;
+    font-family: 'Lobster', cursive;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: area1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+  .e2a #e4b {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .e2a #home:hover {
+    color: brown;
+  }
+  .e2a .spans {
+    margin-right: 20px;
+  }
+  .e2a .spans:hover {
+    margin-right: 20px;
+    color: brown;
+    -webkit-animation: pulse;
+            animation: pulse;
+    /* referring directly to the animation's @keyframe declaration */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    /* don't forget to set a duration! */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .e3c .e5c {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 2%;
+  }
+  .e3c .e4c {
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    line-height: 0.8cm;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .e3c hr {
+    display: block;
+    border-top: 1px solid white;
+    margin-bottom: 2%;
+  }
+  .e3c h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    margin-bottom: 8%;
+  }
+  .e3c .art1 {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-color: #2b1414;
+    -ms-grid-columns: 20% 80%;
+        grid-template-columns: 20% 80%;
+        grid-template-areas: "area 1" "area 2";
+    -ms-grid-column: 1;
+    grid-column: 1%;
+    margin-bottom: 3%;
+    border-radius: 1rem;
+  }
+  .e3c .art2 {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-color: #2b1414;
+    -ms-grid-columns: 20% 80%;
+        grid-template-columns: 20% 80%;
+        grid-template-areas: "area 1" "area 2";
+    -ms-grid-column: 1;
+    grid-column: 1%;
+    margin-bottom: 3%;
+    border-radius: 1rem;
+  }
+  .e3c .art3 {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-color: #2b1414;
+    -ms-grid-columns: 20% 80%;
+        grid-template-columns: 20% 80%;
+        grid-template-areas: "area 1" "area 2";
+    -ms-grid-column: 1;
+    grid-column: 1%;
+    margin-bottom: 3%;
+    border-radius: 1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .e2c {
+    padding-left: 25%;
+    padding-right: 25%;
+    grid-area: area2;
+  }
+  .e2c .e5c {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    margin-top: 2%;
+  }
+  .e2c .e4c {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    line-height: 1.2cm;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+  }
+  .e2c hr {
+    display: block;
+    border-top: 1px solid white;
+    margin-bottom: 2%;
+  }
+  .e2c h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 27px;
+    margin-bottom: 8%;
+  }
+  .e2c .cambio:hover {
+    color: brown;
+  }
+  .e2c .art1 {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-color: #2b1414;
+    -ms-grid-columns: 20% 80%;
+        grid-template-columns: 20% 80%;
+        grid-template-areas: "area 1" "area 2";
+    -ms-grid-column: 1;
+    grid-column: 1%;
+    margin-bottom: 3%;
+    border-radius: 1rem;
+  }
+  .e2c .art2 {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-color: #2b1414;
+    -ms-grid-columns: 20% 80%;
+        grid-template-columns: 20% 80%;
+        grid-template-areas: "area 1" "area 2";
+    -ms-grid-column: 1;
+    grid-column: 1%;
+    margin-bottom: 3%;
+    border-radius: 1rem;
+  }
+  .e2c .art3 {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-color: #2b1414;
+    -ms-grid-columns: 20% 80%;
+        grid-template-columns: 20% 80%;
+        grid-template-areas: "area 1" "area 2";
+    -ms-grid-column: 1;
+    grid-column: 1%;
+    margin-bottom: 3%;
+    border-radius: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .e2d {
+    border-top: 1px solid white;
+    margin-top: 24px;
+    padding-bottom: 6%;
+    padding-top: 4%;
+    display: -ms-grid;
+    display: grid;
+  }
+  .e3d {
+    font-size: 12px;
+    color: #c098ec;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.025em;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .e2d {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-top: 1px solid white;
+    grid-area: area3;
+  }
+  .e2d .e3d {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 13px;
+    color: #c098ec;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.025em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .blogList {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-family: 'Ubuntu';
+  }
+  .artList {
+    padding-bottom: 5%;
+  }
+  .artList:hover {
+    padding-bottom: 5%;
+    color: brown;
+  }
+  .artTitle {
+    padding-bottom: 2%;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .artTime {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .blogList {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Ubuntu';
+  }
+  .artList {
+    padding-bottom: 3%;
+  }
+  .artList:hover {
+    padding-bottom: 3%;
+    color: brown;
+  }
+  .artTitle {
+    padding-bottom: 1%;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .artTime {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .blogList {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Ubuntu';
+  }
+  .artList {
+    padding-bottom: 3%;
+  }
+  .artList:hover {
+    padding-bottom: 3%;
+    color: brown;
+  }
+  .artTitle {
+    padding-bottom: 1%;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 27px;
+  margin-bottom: 2%;
+}
+
+.bg-white.rounded.text-center.p-5.shadow-down {
+  padding-top: 4%;
+}
+/*# sourceMappingURL=estilos.css.map */

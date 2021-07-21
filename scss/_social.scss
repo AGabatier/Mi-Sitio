@@ -1,0 +1,15 @@
+.titulo-playlist{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    margin-bottom: 1%;
+    padding-top: 20%;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px){
+
+    .musica-list{
+        height: 60px;
+        padding-top: 6%;
+    }
+}

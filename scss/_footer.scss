@@ -1,0 +1,60 @@
+
+
+@media only screen and (max-width: 600px){
+
+    .e2d{
+        border-top: 1px solid white;
+        margin-top: 24px;
+        padding-bottom: 6%;
+        padding-top: 4%;
+        display: grid;
+    }
+    .e3d{
+        font-size: 12px;
+        color: rgb(192, 152, 236);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 0.025em;
+        justify-self: center;
+    }
+    .e3d-{
+        font-size: 12px;
+        color: rgb(192, 152, 236);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 0.025em;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2%;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px){
+
+    .e2d{
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-top: 1px solid white;
+        grid-area: area3;
+
+        .e3d{
+            padding-top: 2%;
+            font-size: 13px;
+            color: rgb(192, 152, 236);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            letter-spacing: 0.025em;
+            display: flex;
+            justify-content: center;
+        } 
+        .e3d-{
+            font-size: 13px;
+            color: rgb(192, 152, 236);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            letter-spacing: 0.025em;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 2%;
+        }
+    }
+}

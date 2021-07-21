@@ -1,0 +1,74 @@
+
+$colores: brown;
+
+@media only screen and (max-width: 600px){
+
+    .e2a{
+        color: white;
+        padding-top: 2%;
+        font-size: 18px;
+        font-family: 'Lobster', cursive;
+        display: grid;
+        grid-template-columns: 70%;
+        grid-template-rows: 40px 40px;
+    
+        #e4b{
+            display: flex;
+        }
+        
+        .spans{
+            margin-right: 20px;
+        }
+        .spans:hover{
+            margin-right: 20px;
+            color: $colores;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 600px){
+
+    body{
+        color: white;
+        background-color: rgb(33, 24, 46);
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 3% 94% 3%;
+        grid-template-areas: "area1" 
+                             "area2" 
+                             "area3";
+    }
+    
+    .e2a{
+        padding-top: 1%;
+        background-color: rgb(33, 24, 46);
+        font-size: 22px;
+        font-family: 'Lobster', cursive;
+        display: flex;
+        justify-content: space-between;
+        grid-area: area1;
+        position: sticky;
+        top: 0px;
+
+         
+        #e4b{
+            display: flex;
+            flex-direction: row;
+        }
+        #home:hover{ 
+            color: $colores; 
+        } 
+        .spans{
+            margin-right: 20px;
+        }
+    
+        .spans:hover{
+            margin-right: 20px;
+            color: brown;
+            animation: pulse; /* referring directly to the animation's @keyframe declaration */
+            animation-duration: 2s; /* don't forget to set a duration! */
+        }
+        
+    }
+}
