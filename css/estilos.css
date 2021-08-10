@@ -12,7 +12,7 @@
 body {
   color: white;
   background-color: #21182e;
-  display: block;
+  display: inline-block;
   padding-top: 0.5%;
   padding-left: 2%;
   padding-right: 2%; }
@@ -183,25 +183,60 @@ body {
     .e2c .art3:hover {
       -webkit-transform: scale(1.1);
       transform: scale(1.1); }
-  .cajaContenedor1 {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-areas: "area1" "area2";
-    column-gap: 3%; }
-    .cajaContenedor1 .imagenArticulo1 {
+    .e2c .imagenArticulo1 {
       width: 100%;
       height: auto;
-      grid-area: area1; }
-      .cajaContenedor1 .imagenArticulo1 .memeee {
-        width: 100%;
-        height: 100%;
+      padding-top: 0.7rem;
+      padding-left: 1rem;
+      display: flex; }
+      .e2c .imagenArticulo1 .memeee {
+        width: 8rem;
+        height: 8rem;
         border-radius: 1rem;
-        margin-top: 1rem; }
-    .cajaContenedor1 .contenidoUno {
+        display: flex; }
+    .e2c .contenidoUno {
       width: 100%;
       height: 50px;
       font-size: 15px;
-      grid-area: area2; } }
+      display: flex; }
+      .e2c .contenidoUno .textoUno {
+        display: flex; }
+    .e2c .imagenArticulo2 {
+      width: 100%;
+      height: auto;
+      padding-top: 0.7rem;
+      padding-left: 1rem;
+      display: flex; }
+      .e2c .imagenArticulo2 .pannn {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 1rem;
+        display: flex; }
+    .e2c .contenidoDos {
+      width: 100%;
+      height: 50px;
+      font-size: 15px;
+      display: flex; }
+      .e2c .contenidoDos .textoDos {
+        display: flex; }
+    .e2c .imagenArticulo3 {
+      width: 100%;
+      height: auto;
+      padding-top: 0.7rem;
+      padding-left: 1rem;
+      display: flex; }
+      .e2c .imagenArticulo3 .globalizacion-logo {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 1rem;
+        display: flex; }
+    .e2c .contenidoTres {
+      width: 100%;
+      height: 50px;
+      font-size: 15px;
+      display: flex; }
+      .e2c .contenidoTres .textoTres {
+        display: flex; } }
 
 @media only screen and (max-width: 600px) {
   .e2d {
@@ -455,19 +490,30 @@ h2 {
   color: white;
   font-family: "Ubuntu", sans-serif;
   text-align: justify;
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 5%;
-  line-height: 1.5rem;
+  line-height: 2rem;
   padding-bottom: 2%; }
 
 .title1 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 45px;
   padding-bottom: 4%;
-  border-bottom: 1px solid white;
-  padding-top: 0px; }
+  border-bottom: 1px solid white; }
 
 .global {
   width: 100%;
   height: auto;
-  margin-top: 4%; }
+  margin-top: 4%;
+  padding-top: 5%; }
+
+.texto-uno {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 2rem; }
+
+.edit-cita {
+  font-size: 13px;
+  font-family: 'Ubuntu';
+  text-align: right; }

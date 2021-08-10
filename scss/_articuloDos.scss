@@ -1,13 +1,36 @@
+//variables
+
+$fuente-letra: 'Ubuntu', sans-serif;
+$tamaño-letra: 18px;
+$color-letra: white;
+$interlineado: 2rem;
+$alineacion: justify;
+
+//variables
+
 .title1{
-    font-family: 'Ubuntu', sans-serif;
+
+    font-family: $fuente-letra;
     font-size: 45px;
     padding-bottom: 4%;
     border-bottom: 1px solid white;
-    padding-top: 0px;
 }
 .global{
     width: 100%;
     height: auto;
     margin-top: 4%;
+    padding-top: 5%;
+}
+.texto-uno{
+    font-family: $fuente-letra;
+    font-size: $tamaño-letra; 
+    text-align: $alineacion;
+    line-height: $interlineado;
+
 }
 
+.edit-cita{
+    font-size: 13px;
+    font-family: 'Ubuntu';
+    text-align: right;
+}
